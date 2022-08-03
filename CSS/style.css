@@ -1,3 +1,9 @@
+:root {
+    --primary: #73C0DA;
+    --light: white; 
+    --dark: #373738; 
+}
+
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -8,13 +14,14 @@ div.logo {
 }
 .topnav {
     list-style-type: none;
-    margin: 0;
+    margin: 1000;
     padding: 0;
     overflow: hidden;
     width: 45%;
     float: right;
 
 }
+
 ul:{
     width: 50%;
     margin-left: auto;
@@ -53,8 +60,8 @@ p.paragraph {
 
 }
 footer{
-    background-color: #373738;
-    height: 200px;
+    background-color: var(--primary);
+    height: 100px;
     color: white;
 }
 li {
@@ -69,7 +76,7 @@ div.button {
     align-items: center;
 }
 .btn {
-    position: relative;
+   position: relative;
    padding: 30px 50px;
    border: 2px solid #73C0DA;
    margin: 10px;
@@ -101,3 +108,41 @@ div.button {
     height: 700px;
     text-emphasis-color: white;
 }
+
+.search-bar {
+    width: 225px;
+    height: 50px;
+    padding-left: 15px;
+    border: 2px solid #212529;
+    margin-top: 8px;
+}
+
+.search-btn {
+    padding: 10px 10px;
+    border: 2px solid #73C0DA;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #73C0DA;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10;
+}
+
+div.polaroid {
+    margin-top: 25px;
+    display: flex;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+    flex-direction: column;
+    padding: 10px 25px 0px 25px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+  
+
+  div.cardtext {
+    padding: 10px 20px;
+  }
