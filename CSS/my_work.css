@@ -1,7 +1,25 @@
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 14px; 
+    line-height: 24px; 
+    margin: 0 0 24px;
+    text-align: justify; 
+    text-justify: inter-word;
 }
+
+h1.heading {
+    margin-top: 100px;
+    margin-bottom: 0;
+    color: #212529;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 50px; 
+    font-weight: 450;
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+
 div.logo {
     width: 23%;
     padding: 1%;
@@ -15,7 +33,7 @@ div.logo {
     float: right;
     font-family: 'Inter', sans-serif;
 }
-ul:{
+ul {
     width: 50%;
     margin-left: auto;
 }
@@ -26,7 +44,6 @@ footer{
     font-family: 'Inter', sans-serif;
     background-color: #373738;
     height: 200px;
-    color: white;
 }
 li {
     font-family: 'Inter', sans-serif;
@@ -43,27 +60,58 @@ div.workGrid {
     display: grid;
     grid-template-columns: auto auto;
     font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20%;
+    margin-top: 0%;
 
 }
 .workGrid {
-    padding: 15%;
-    margin: 10px;
     grid-gap: 50px;
-}
-h1 {
-    padding-top: 10px;
     text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 150;
-    font-size: xx-large;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 14px; 
+    line-height: 24px; 
+    margin: 0 0 24px; 
+    text-align: justify; 
+    text-justify: inter-word; 
+    
 }
-h3 {
+
+button.view {
+    padding: 10px 10px;
+    border: 2px solid #73C0DA;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #73C0DA;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10;
+    color: white;
+    margin: 10 10 10 10;
+}
+
+
+button.last {
+    padding: 10px 10px;
+    border: 2px solid #73C0DA;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #73C0DA;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10;
+    color: white;
+    margin-bottom: 45px; 
+
+}
+
+div.another {
     text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 150;
-    font-size: x-large;
-    padding-bottom: 20px;
 }
+
+
 button {
     background-color: 73C0DA;
     border: none;
@@ -73,6 +121,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+
 }
 @media screen and (max-width: 600px) {
     ul.topnav {
